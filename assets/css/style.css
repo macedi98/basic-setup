@@ -1,0 +1,43 @@
+/* M A I N  S T R U C T U R E */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,300,800);
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  color: #323232;
+  width: 100%;
+}
+a, a.active, a:active, a:focus, a:hover {
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer
+}
+
+/* --------------- */
+/* mobile landscape layouts only */
+@media only screen and (min-device-width: 480px) and (orientation:landscape){
+  
+}
+/* tablet portrait layouts only */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+ 
+}
+/* tablet landscape layouts only */
+@media only screen and (min-device-width: 768px) and (min-device-height: 768px) and (orientation:landscape) {
+  
+}
+/* Desktop layouts only */
+@media only screen and (min-width: 960px) and (min-height: 770px){
+
+}
+
+
+
+
+
+
